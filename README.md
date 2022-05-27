@@ -7,6 +7,7 @@ DocCMS keyword SQL注入漏洞批量扫描poc
 python3 DocCMS_keyword_SQL_injection.py -u http://127.0.0.1:1111 单个url测试
 
 python3 DocCMS_keyword_SQL_injection.py -f url.txt 批量检测
+会在当前目录生成存在漏洞的txt文件
 
 ![](./poc.png)
 
